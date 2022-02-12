@@ -1,5 +1,10 @@
-array = [2, 3, 6, 90, 7, 98, 1]
 
+from random import random
+
+array = [None] * 1000000
+
+for i in range(0, 1000000):
+    array[i] = int(random() * 1000)
 # O(n²)
 # Omega (n²)
 
