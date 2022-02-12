@@ -1,5 +1,9 @@
-array = [2, 45, 6, 43, 12, 98, 1]
+from random import random
 
+array = [None] * 1000
+
+for i in range(0, 1000):
+    array[i] = int(random() * 1000000)
 
 def bubbleSort(array):
     l = len(array)

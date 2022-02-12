@@ -3,7 +3,7 @@ from random import random
 array = [None] * 1000000
 
 for i in range(0, 1000000):
-    array[i] = int(random() * 1000)
+    array[i] = int(random() * 1000000)
 # O(n²)
 # Omega (n²)
 
